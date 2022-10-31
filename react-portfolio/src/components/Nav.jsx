@@ -4,7 +4,8 @@ import './styles.css'
 export const Nav = () => {
   return (
     <nav className='container'>
-        <h1>Bunyameen Shola</h1>
+        <div className="nav__section">
+                    <h1 className='folio__name'>Bunyameen Shola</h1>
         <ul>
             <a href="">
                 <li>About</li>
@@ -17,6 +18,9 @@ export const Nav = () => {
             </a>
             
         </ul>
+
+        </div>
+
         </nav>
   )
 }
