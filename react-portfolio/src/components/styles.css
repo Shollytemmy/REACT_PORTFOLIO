@@ -2,13 +2,15 @@
     width: 1000px;
     max-width: 100%;
     padding: 0 20px;
-    margin: 0 auto;
-    border: 1px solid red;
+    margin: 18px auto;
+    /* border: 1px solid red; */
+    position: relative;
 }
 
 .nav__section {
   display: flex;
-  justify-content: space-between ;
+  /* justify-content: space-between ; */
+  align-items: center;
   
 }
 
@@ -19,18 +21,85 @@
 
 .nav__section ul a > li{
     list-style-type: none;
+   
     
     
 }
 
 ul > a{
     text-decoration: none;
+    color: #1F2937;
+    border: 1px solid red;
+    padding: 3px 10px;
+     font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
 }
 
 .folio__name{
+    flex: 1;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color:  hsla(215, 28%, 17%, 1);
-;
+}
+
+.theme {
+  margin-left: 32px;
+  background-color: #E5E7EB;
+  padding: 8px 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.biography{
+    margin-top: 130px;
+    position: relative;
+}
+
+/* .biography__info{
+    background: rgba(249, 250, 251, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+} */
+
+.biography__info{
+    position: absolute;
+    left: -200px;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.bio_text {
+  white-space: pre;
+  text-align: justify;
+  margin-top: 32px;
+}
+
+.name{
+    margin-top: 8px;
+}
+
+.btn__components {
+  display: flex;
+  gap: 8px;
+}
+
+.btn__default{
+ 
+ width: 320px;
+ height: 48px;
+ border-radius: 8px;
+}
+
+.btn__together{
+    background: hsla(215, 28%, 17%, 1);
+    color: rgb(255, 255, 255);
+}
+
+.btn__workExp{
+    border-style: dashed;
 }

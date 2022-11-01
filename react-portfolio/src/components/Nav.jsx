@@ -1,4 +1,7 @@
-import React from 'react'
+import {RiMoonClearFill} from 'react-icons/ri'
+
+
+
 import './styles.css'
 
 export const Nav = () => {
@@ -18,6 +21,9 @@ export const Nav = () => {
             </a>
             
         </ul>
+        <div className="theme">
+            <RiMoonClearFill />
+        </div>
 
         </div>
 

@@ -1,7 +1,11 @@
 *,
  *::before, *::after,
-  html, body{
+  html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  background-color: #E5E5E5;;
 }
