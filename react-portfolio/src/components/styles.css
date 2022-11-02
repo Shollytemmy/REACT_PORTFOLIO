@@ -130,17 +130,29 @@ ul > a{
 }
 
 .btn__default{
- 
  width: 320px;
  height: 48px;
  border-radius: 8px;
+ text-align: center;
 }
 
 .btn__together{
     background: hsla(215, 28%, 17%, 1);
     color: rgb(255, 255, 255);
+    fill: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .btn__workExp{
-    border-style: dashed;
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.arr{
+    margin-left: 10px;
+
 }

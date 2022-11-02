@@ -1,7 +1,7 @@
 import PropTyes from 'prop-types'
 import { Button } from './Button'
-import {BsFillArrowUpRightSquareFill} from 'react-icons/bs'
-import {BsFillArrowDownSquareFill} from 'react-icons/bs'
+import {FiArrowUpRight} from 'react-icons/fi'
+import {FiArrowDown} from 'react-icons/fi'
 
 export const Biography = ({bio, name}) => {
   return (
@@ -31,13 +31,13 @@ export const Biography = ({bio, name}) => {
             <Button 
             label="let's work to gether" 
             icon={
-                <BsFillArrowUpRightSquareFill /> 
+                <FiArrowUpRight color='white' className='arr'/> 
 
             }
             color='teal'
              />
             <Button label="see some of my works" icon={
-                <BsFillArrowDownSquareFill />
+                <FiArrowDown color=''  className='arr'/>
 
             } />
         </div>
