@@ -6,14 +6,27 @@ import {BsFillArrowDownSquareFill} from 'react-icons/bs'
 export const Biography = ({bio, name}) => {
   return (
     <div className='biography'>
+        <div className="bg__circle">
+             <div className="circle__wrapper">
+            <div className="circle"></div>
         <div className='biography__info'>
-        <h1>Hi 👋</h1>
+        <h1 className='hi'>Hi 👋</h1>
         <h1 className='name'>I'm {name}</h1>
         <div className="bio_text">
             {bio}
         </div>
 
         </div>
+
+        </div>
+        <div className="folio__image">
+            <img src="/port.jpg" alt="unsplash"  className='img__port'/>
+        </div>
+
+        </div>
+       
+        
+        
         <div className="btn__components">
             <Button 
             label="let's work to gether" 
