@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './components/styles.css'
 import { Nav } from './components/Nav'
 import { Hero } from './components/Hero'
+import About from './components/About'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
      
       <Nav />
       <Hero />
+      <About about="about" />
       </div>
   )
 }

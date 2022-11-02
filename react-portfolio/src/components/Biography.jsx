@@ -20,7 +20,7 @@ export const Biography = ({bio, name}) => {
 
         </div>
         <div className="folio__image">
-            <img src="/port.jpg" alt="unsplash"  className='img__port'/>
+            <img src="/bunyameen.jpg" alt="unsplash"  className='img__port'/>
         </div>
 
         </div>
@@ -31,7 +31,7 @@ export const Biography = ({bio, name}) => {
             <Button 
             label="let's work to gether" 
             icon={
-                <FiArrowUpRight color='white' className='arr'/> 
+                <FiArrowUpRight color='' className='arr'/> 
 
             }
             color='teal'

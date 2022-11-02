@@ -10,7 +10,7 @@ export const Nav = () => {
         <div className="nav__section">
                     <h1 className='folio__name'>Bunyameen Shola</h1>
         <ul>
-            <a href="">
+            <a href="/about">
                 <li>About</li>
             </a>
             <a href="">
