@@ -5,8 +5,8 @@ export const Stack = ({stacks, name}) => {
     console.log(stacks)
   return (
     <div>
-        <p>{name}</p>
-        {stacks.map((stack) =><li><MdKeyboardArrowRight />{stack}</li>
+        <p className='stck_name'>{name}</p>
+        {stacks.map((stack) =><li className='stck_lst'><MdKeyboardArrowRight />{stack}</li>
         )}
     </div>
   )
