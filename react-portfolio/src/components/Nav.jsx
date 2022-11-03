@@ -3,11 +3,11 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 
 
 
-import './styles.css'
+
 
 export const Nav = () => {
   return (
-    <nav className='container'>
+    <nav className='nav__wrapper'>
         <div className="nav__section">
                     <h1 className='folio__name'>Bunyameen Shola</h1>
         <ul>

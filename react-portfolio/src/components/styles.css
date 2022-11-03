@@ -1,10 +1,14 @@
 .container{
-    width: 1200px;
-    max-width: 100%;
+    width: 100%;
+    /* max-width: 100%; */
     padding: 0 20px;
     margin: 18px auto;
     /* border: 1px solid red; */
   
+}
+.nav__wrapper{
+    width: 70%;
+    margin: 0 auto;
 }
 
 .nav__section {
@@ -29,7 +33,7 @@
 ul > a{
     text-decoration: none;
     color: #1F2937;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 3px 10px;
      font-size: 16px;
     font-weight: 500;
@@ -55,8 +59,7 @@ ul > a{
 
 .biography{
     margin-top: 130px;
-    
-    /* border: 1px solid red; */
+   
 }
 
 .bg__circle {
@@ -67,7 +70,6 @@ ul > a{
 
  position: relative;
     margin-bottom: 48px;
-    /* border: 1px solid blue; */
     width: 80%;
     
   
@@ -82,7 +84,7 @@ ul > a{
 .circle{
     width: 25rem;
     height: 25rem;
-    background: linear-gradient(0deg, rgb(253, 54, 133) 0.00%, rgb(254, 207, 215) 0.19%, rgb(254, 207, 215), transparent);
+      background: linear-gradient(132deg, rgb(221, 221, 221) 0.00%, rgb(110, 136, 161) 100.00%);
     border-radius: 50%;
     filter: blur(25px);
 }
@@ -106,25 +108,16 @@ ul > a{
 }
 .folio__image{
     width: 403px;
-    height: 403px;
-    
-    
-   
-   
-    
+    height: 403px;    
 }
 
 .img__port{
-    width: 100%;
-    /* height: 100%; */
-    background: linear-gradient(135.33deg, #FFFFFF -27.63%, rgba(255, 255, 255, 0.3) 168.03%);
+width: 100%;
+background: linear-gradient(135.33deg, #FFFFFF -27.63%, rgba(255, 255, 255, 0.3) 168.03%);
 border-right: 25px solid rgba(254, 207, 215, 0.5);
-/* filter: blur(20px); */
 object-fit: cover;
-    /* box-shadow: 10px 15px 200px rgb(254, 207, 215) ; */
-    border-radius: 50%;
-    /* object-fit: cover; */
-    /* filter: blur(20px); */
+border-radius: 50%;
+    
    
 }
 
@@ -132,6 +125,7 @@ object-fit: cover;
   display: flex;
   gap: 8px;
   margin-bottom: 112px;
+  margin-left: 25px;
 }
 
 .btn__default{
@@ -181,3 +175,79 @@ object-fit: cover;
     font-size: 18px;
 
 }
+
+/*About styles*/
+
+.about {
+  padding: 144px 10px 100px 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.about__circle__left {
+   background: linear-gradient(132deg, rgb(221, 221, 221) 0.00%, rgb(110, 136, 161) 100.00%);
+   width: 15rem;
+   height: 15rem;
+   border-radius: 50ch;
+filter: blur(8px);
+}
+.about__circle__right {
+    background: linear-gradient(132deg, rgb(221, 221, 221) 0.00%, rgb(110, 136, 161) 100.00%);
+   width: 15rem;
+   height: 15rem;
+   border-radius: 50ch;
+    filter: blur(20px);
+}
+
+.about__about {
+  border: 1px solid green;
+  
+  flex: 1;
+
+}
+
+.about__text{
+    width: 80%;
+    border: 1px solid red;
+  
+}
+
+.text__{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.text__me{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 8px;
+}
+
+.brief_intro{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    width: 616px;
+    margin-top: 24px;
+}
+
+li{
+    list-style: none;
+}
+
+.stacks__ {
+  display: flex;
+}
+
+/*
+*  background: linear-gradient(189deg, rgb(34, 181, 254) 0.00%, rgb(255, 186, 214) 1.31%);
+    width: 20rem;
+    height: 25rem;
+    border-top-right-radius: 0ch;
+    border-top-left-radius: 90ch;
+    border-bottom-left-radius: 0ch;
+    border-bottom-right-radius: 110ch;
+*/
