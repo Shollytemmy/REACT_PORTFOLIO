@@ -5,6 +5,7 @@ import { Nav } from './components/Nav'
 import { Hero } from './components/Hero'
 import About from './components/About'
 import Works from './components/Works'
+import { ScrollUpButton } from './components/ScrollUpButton'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <About />
       <Works />
+      <ScrollUpButton />
       </div>
   )
 }
