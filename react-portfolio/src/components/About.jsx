@@ -1,8 +1,8 @@
 import React from 'react'
 
-const About = ({about}) => {
+const About = () => {
   return (
-    <div id={about}>About</div>
+    <div id="about">About</div>
   )
 }
 

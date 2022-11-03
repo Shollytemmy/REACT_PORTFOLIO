@@ -8,7 +8,7 @@ const bio = `Passionate di bidang Frontend Dev dan UI/UX Design.
 
 export const Hero = () => {
   return (
-    <div className='container'>
+    <div className='container' id="">
         <Biography name='Bunyameen Shola' bio={bio}  />
     </div>
   )

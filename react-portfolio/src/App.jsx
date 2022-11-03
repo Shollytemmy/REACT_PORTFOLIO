@@ -13,7 +13,7 @@ function App() {
      
       <Nav />
       <Hero />
-      <About about="about" />
+      <About />
       </div>
   )
 }

@@ -1,4 +1,5 @@
 import {RiMoonClearFill} from 'react-icons/ri'
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 
 
@@ -10,15 +11,16 @@ export const Nav = () => {
         <div className="nav__section">
                     <h1 className='folio__name'>Bunyameen Shola</h1>
         <ul>
-            <a href="/about">
+            <AnchorLink href="#about">
                 <li>About</li>
-            </a>
-            <a href="">
+            </AnchorLink>
+
+            <AnchorLink href="#work">
                 <li>Work</li>
-            </a>
-            <a href="">
+            </AnchorLink>
+            <AnchorLink href="#contact">
                 <li>Contact</li>
-            </a>
+            </AnchorLink>
             
         </ul>
         <div className="theme">
