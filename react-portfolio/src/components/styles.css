@@ -3,7 +3,7 @@
     /* max-width: 100%; */
     padding: 0 20px;
     margin: 18px auto;
-    /* border: 1px solid red; */
+    
   
 }
 
@@ -22,6 +22,12 @@
     z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+
+.scrollUp:hover{
+    background-color: rgb(255, 255, 255);
+    color: #1F2937;
+    transition: 2s;
+}
 .nav__wrapper{
     width: 70%;
     margin: 0 auto;
@@ -29,7 +35,6 @@
 
 .nav__section {
   display: flex;
-  /* justify-content: space-between ; */
   align-items: center;
   
 }
@@ -49,7 +54,7 @@
 ul > a{
     text-decoration: none;
     color: #1F2937;
-    /* border: 1px solid red; */
+    
     padding: 3px 10px;
      font-size: 16px;
     font-weight: 500;
@@ -130,7 +135,7 @@ ul > a{
 .img__port{
 width: 100%;
 background: linear-gradient(135.33deg, #FFFFFF -27.63%, rgba(255, 255, 255, 0.3) 168.03%);
-border-right: 25px solid rgba(254, 207, 215, 0.5);
+border-right: 25px solid rgb(110, 136, 161);
 object-fit: cover;
 border-radius: 50%;
     
@@ -217,7 +222,6 @@ filter: blur(8px);
 }
 
 .about__about {
-  border: 1px solid green;
   
   flex: 1;
 
@@ -225,7 +229,6 @@ filter: blur(8px);
 
 .about__text{
     width: 80%;
-    border: 1px solid red;
     margin-bottom: 48px;
   
 }
@@ -258,6 +261,7 @@ li{
 
 .stacks__ {
   display: flex;
+  gap:6px;
 }
 
 .stck_lst{
@@ -267,12 +271,4 @@ li{
 .stck_name{
     margin-bottom: 8px;
 }
-/*
-*  background: linear-gradient(189deg, rgb(34, 181, 254) 0.00%, rgb(255, 186, 214) 1.31%);
-    width: 20rem;
-    height: 25rem;
-    border-top-right-radius: 0ch;
-    border-top-left-radius: 90ch;
-    border-bottom-left-radius: 0ch;
-    border-bottom-right-radius: 110ch;
-*/
+
